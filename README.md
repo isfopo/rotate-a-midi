@@ -2,7 +2,7 @@
 
 ### Description
 
-A paired phone app (made with React Native) and M4L Device or plugin that will transfer MIDI CC data based off of the mobile device's rotation via OSC to be used to control parameters in the 
+A paired phone app (made with React Native) and M4L Device or plugin that will transfer MIDI CC data based off of the mobile device's rotation via OSC to be used to control parameters in your DAW.
 
 ### Platforms 
  - React Native for phone app
