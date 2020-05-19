@@ -14,43 +14,48 @@ A paired phone app (made with React Native) and M4L Device or plugin that will t
    - do this by enabling or disabling the axis from app
  - for midi assignment in Ableton, must have the option to "Solo" a data stream
    - could also be done with enable/disable
- - visual feedback on both the phone app and device
+ - visual feedback (UI) on both the phone app and device
    - should mirror each other
    - should be minimal and any other settings hidden until needed
    - display should be set to "always on"
  - provide a way to easily setup an OSC to both devices
+ - user able to set a range of movement that determines 0 - 127
 
 ### Milestones
 
-##### Phase 1
- - [ ] create phone app that can track device's rotation
- - [ ] think of better name
+  ##### Phase 1
+  - [x] create phone app that can track device's rotation
+  - [x] think of better name
 
-##### Phase 2
- - [ ] create M4L device that:
-   - [ ] has three knobs
-   - [ ] can send midi data to Ableton globally
+  ##### Phase 2
+  - [ ] create M4L device that:
+    - [ ] has three knobs
+    - [ ] can send midi data to Ableton globally
 
-##### Phase 3
- - [ ] establish OSC link between app and device
+  ##### Phase 3
+  - [ ] establish OSC link between app and device
 
-##### Phase 4
- - [ ] create UI that is consistent between app and 
+  ##### Phase 4
+  - [ ] create UI that is consistent between app and device
 
-##### Phase 5
- - [ ] create settings tab for app that includes:
-   - [ ] easy OSC setup/pairing
-   - [ ] axis enable/disable
+  ##### Phase 5
+  - [ ] create settings tab for app that includes:
+    - [ ] easy OSC setup/pairing
+    - [ ] axis enable/disable
 
-##### Phase 6
- - [ ] create settings tab for device that includes:
-   - [ ] easy OSC setup/pairing
+  ##### Phase 6
+  - [ ] create settings tab for device that includes:
+    - [ ] easy OSC setup/pairing
 
-##### Phase 7
- - [ ] clean up UI
+  ##### Phase 7
+  - [ ] clean up UI
 
-##### Phase 8
- - [ ] make VST/AU plugin to use in place of M4L device
+  ##### Phase 8
+  - [ ] make VST/AU plugin to use in place of M4L device
 
-##### Phase 9
- - [ ] package and publish
+  ##### Phase 9
+  - [ ] package and publish
+
+
+### Ideas
+ - would work well with a preset interpolator, maybe include that in a different mode
